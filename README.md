@@ -1,3 +1,12 @@
+HeartSync is a beautifully crafted app that generates personalized deep conversation prompts using AI. Simply describe your current situation — a late-night catch-up with an old friend, a first date at a cozy café, or a solo moment of self-reflection — and HeartSync creates 10 thoughtful questions designed to spark genuine connection.
+✨ Features:
+🎴 Elegant 3D card interface with flip animations
+🤖 AI-generated prompts tailored to your context
+🌏 Bilingual support (English & 中文)
+💡 Each card includes conversation insights and pro-tips
+🎨 Stunning glassmorphic design
+
+
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
