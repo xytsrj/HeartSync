@@ -1,5 +1,6 @@
 import React, { useState, useEffect, useMemo } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
+import { Analytics } from '@vercel/analytics/react';
 import { 
   ChevronRight, 
   Sparkles, 
@@ -382,6 +383,8 @@ export default function App() {
       </div>
 
       {error && <motion.div initial={{ opacity: 0, y: 50 }} animate={{ opacity: 1, y: 0 }} className="fixed bottom-20 left-1/2 -translate-x-1/2 bg-red-600/90 backdrop-blur-md px-6 py-3 sm:px-10 sm:py-5 rounded-full text-white text-[12px] sm:text-[14px] border border-red-400 z-50 shadow-2xl">{error}</motion.div>}
+      
+      <Analytics />
     </div>
   );
 }
